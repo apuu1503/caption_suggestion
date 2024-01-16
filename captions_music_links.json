@@ -1,0 +1,117 @@
+{
+    "image1.jpg": {
+        "captions": [
+            "Nature never goes out of style.",
+            "Nothing smells as good as nature.",
+            "All my cares go away when I take a walk outside.",
+            "Let your canopy be the stars in the sky.",
+            "There is no Wi-Fi in the forest, but I promise you will find a better connection.",
+            "Starry skies and fireflies.",
+            "Mother Nature is my kinda girl.",
+            "Sorry TLC, I chased the waterfall.",
+            "Glamping is my favourite sport."
+        ],
+        "music": [
+            "Nature",
+            "Nature Walk",
+            "Nature Calls",
+            "The Beat of Nature"
+        ],
+        "view_more_link": "https://pixabay.com/music/search/nature/"
+    },
+    "image2.jpg": {
+        "captions": [
+            "The playground is the perfect place to recharge.",
+            "The best things in life are free, like playing at the park!",
+            "Play hard, laugh loud, and have fun at the playground.",
+            "I am happiest when I am on the playground.",
+            "Happiness is swinging with your bestie!"
+        ],
+        "music": [
+            "Leva - Eternity",
+            "A Small Miracle",
+            "Into The Night",
+            "Whip"
+        ],
+        "view_more_link": "https://pixabay.com/music/search/kids/"
+    },
+    "image3.png": {
+        "captions": [
+            "Work hard and make it happen.",
+            "Do you comma here often?",
+            "This year, owl study hard and do my absolute best.",
+            "I'm all booked up.",
+            "Feeling like a real cute-tea reading this book.",
+            "Hard work always pays off.",
+            "Today, I decided to get sh*t done."
+        ],
+        "music": [
+            "Lofi Study",
+            "Just Relax",
+            "Please Calm My Mind",
+            "Eco Technology"
+        ],
+        "view_more_link": "https://pixabay.com/music/search/study/"
+    },
+    "image4.png": {
+        "captions": [
+            "A mother is your first friend, your best friend, your forever friend.",
+            "When you are looking at your mother, you are looking at the purest love you will ever know.",
+            "Mother is the heartbeat in the home; and without her, there seems to be no heartthrob.",
+            "Mothers are like glue. Even when you can't see them, they're still holding the family together.",
+            "My Mother: She is beautiful, softened at the edges and tempered with a spine of steel. I want to grow old and be like her. ",
+            "Mother is the name for God in the lips and hearts of little children.",
+            "The influence of a mother in the lives of her children is beyond calculation.",
+            "It may be possible to gild pure gold, but who can make his mother more beautiful?"
+        ],
+        "music": [
+            "Mother",
+            "Sweet Dreams",
+            "Piano Emotional Is Piano Emotional",
+            "Lullaby Melody"
+        ],
+        "view_more_link": "https://pixabay.com/music/search/mother%20love/"
+    },
+    "image5.png": {
+        "captions": [
+            "Let your canopy be the stars in the sky.",
+            "There is no Wi-Fi in the forest, but I promise you will find a better connection.",
+            "Starry skies and fireflies.",
+            "Nature never goes out of style.",
+            "Nothing smells as good as nature.",
+            "All my cares go away when I take a walk outside.",
+            "Mother Nature is my kinda girl.",
+            "Sorry TLC, I chased the waterfall.",
+            "Glamping is my favourite sport."
+        ],
+        "music": [
+            "The Beat of Nature",
+            "Nature",
+            "Nature Walk",
+            "Nature Calls"
+        ],
+        "view_more_link": "https://pixabay.com/music/search/nature/"
+    },
+    "image6.png": {
+        "captions": [
+            "Jobs fill your pocket, but adventures fill your soul.",
+            "To Travel is to Live.",
+            "Life is either a daring adventure or nothing at all.",
+            "Blessed are the curious for they shall have adventures.",
+            "Take only memories, leave only footprints.",
+            "Live your life by a compass not a clock.",
+            "Not all those who wander are lost.",
+            "Oh the places you’ll go.",
+            "Adventure is worthwhile.",
+            "Life is short and the world is wide.",
+            "A journey of a thousand miles begins with a single step."
+        ],
+        "music": [
+            "Price of Freedom",
+            "Cinematic Documentary",
+            "ummer Adventures",
+            "Risk"
+        ],
+        "view_more_link": "https://pixabay.com/music/search/adventure/"
+    }
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Processing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input[type="file"],
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        #result {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        #image-container {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        #image-container img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        #suggestions {
+            max-width: 600px;
+            margin: auto;
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+        #suggestions p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Image Processing</h1>
+    <form action="/process_image" method="post" enctype="multipart/form-data">
+        <label for="file">Upload Image:</label>
+        <input type="file" name="file" accept="image/*">
+
+
+
+        <input type="submit" value="Process Image">
+    </form>
+
+    <!-- Add this block inside the #result div in your index.html -->
+    <!-- Add this block inside the #result div in your index.html -->
+    <!-- Add this block inside the #result div in your index.html -->
+    <!-- Add this block inside the #result div in your index.html -->
+    <!-- Add this block inside the #result div in your index.html -->
+    <div id="result">
+        <div id="image-container">
+            <img id="uploaded-image" src="{{ image_src }}" alt="Uploaded Image">
+        </div>
+        <div id="suggestions">
+            {% if result %}
+            <h2>Suggestions:</h2>
+            <ol style="text-align: left;">
+                {% for caption in result.captions %}
+                <li>{{ caption }}</li>
+                {% endfor %}
+            </ol>
+            <h2>Music:</h2>
+            <ol style="text-align: left;">
+                {% for song in result.music %}
+                <li>{{ song }}</li>
+                {% endfor %}
+            </ol>
+            <a href="{{ result.view_more_link }}" target="_blank" rel="noopener noreferrer">View More</a>
+            {% else %}
+            <p>No suggestions available.</p>
+            {% endif %}
+        </div>
+    </div>
+    </div>
+
+
+</body>
+
+</html>
